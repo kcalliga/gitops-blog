@@ -1,0 +1,10 @@
+apiVersion: cluster.open-cluster-management.io/v1
+kind: ManagedCluster
+metadata:
+  name: ztp-spoke-01
+  namespace: ztp-spoke-01
+  labels:
+    name: ztp-spoke-01
+spec:
+  hubAcceptsClient: true
+  leaseDurationSeconds: 60
