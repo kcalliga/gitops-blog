@@ -13,7 +13,7 @@ spec:
   clusterDeploymentRef:
     name: ztp-spoke-01
   imageSetRef:
-    name: openshift-v4.11.0
+    name: openshift-v4.11.17
   manifestsConfigMapRef:
     name: ztp-spoke-01
   networking:

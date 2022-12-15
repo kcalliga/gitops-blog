@@ -20,7 +20,7 @@ spec:
     matchLabels:
       cluster-name: ztp-spoke-01
   pullSecretRef:
-    name: ai-pull-secret-mec
+    name: pull-secret
   nmStateConfigLabelSelector:
     matchLabels:
       cluster-name: ztp-spoke-01
