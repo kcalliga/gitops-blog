@@ -1,0 +1,8 @@
+kind: Provisioning
+metadata:
+  name: provisioning-configuration
+spec:
+  provisioningMacAddresses:
+  - aa:aa:aa:aa:aa:aa
+  provisioningNetwork: Disabled
+  watchAllNamespaces: true
