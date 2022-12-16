@@ -14,8 +14,8 @@ spec:
     name: ztp-spoke-01
   imageSetRef:
     name: openshift-v4.11.17
-  manifestsConfigMapRef:
-    name: ztp-spoke-01
+#  manifestsConfigMapRef:
+#    name: ztp-spoke-01
   networking:
     clusterNetwork:
       - cidr: 10.128.0.0/14
