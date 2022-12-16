@@ -10,7 +10,7 @@ metadata:
     channel: fast
     subscription-pause: "false"
     visible: "false"
-  name: openshift-v4.11.0
+  name: openshift-v4.11.17
 spec:
   releaseImage: quay.io/openshift-release-dev/ocp-release:4.11.17-x86_64
 
